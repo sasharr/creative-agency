@@ -1,0 +1,68 @@
+.form {
+  background: #7beec7;
+  padding: 50px 0;
+  margin: 150px 0 50px;
+}
+
+.cool {
+  padding: 0;
+}
+
+.cool__we {
+  color: #ffffff;
+  font-family: Montserrat,sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.cool__link {
+  display: block;
+  background-color: #ffffff;
+  width: 35%;
+  padding: 10px 5px;
+  color: #7beec7;
+  font-family: Montserrat,sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.mail {
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 0 20px 20px;
+}
+
+.mail-send {
+  width: 100%;
+}
+
+#exampleInputEmail2 {
+  width: 80%;
+  border-radius: 0;
+}
+
+.send {
+  width: 20%;
+  padding: 7px 12px;
+  background-color: #7beec7;
+  border: none;
+  color: #ffffff;
+  font-family: Montserrat,sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+@media screen and (max-width: 768px) {
+  #exampleInputEmail2 {
+    width: 100%;
+  }
+  .form {
+    margin: 20px 0 10px;
+  }
+}

@@ -1,0 +1,18 @@
+* a {
+  text-decoration: none;
+}
+* a:visited {
+  text-decoration: none; }
+
+* a:hover {
+  color: #392e37;
+  text-decoration: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+html {
+  font-size: 16px;
+}

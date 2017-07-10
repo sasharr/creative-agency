@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.menu-fixed {
+  z-index: 9;
+}
+
+.menu {
+  border: none;
+  background: inherit;
+}
+
+.btn {
+  color: #84848f;
+  background: inherit;
+}
+
+.fixedbtn {
+  margin-right: 15px;
+}
+
+.dropdown-menu {
+  background: #7f91a1;
+  opacity: 0.5;
+  & li {
+    background: #7f91a1;
+    opacity: 0.8;
+  }
+}
+
+.dropdown-menu > li > a {
+  opacity: 1;
+  line-height: 26px;
+  color: white;
+}
